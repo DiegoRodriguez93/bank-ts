@@ -1,0 +1,126 @@
+  body {
+      font-family: 'Quicksand', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+      background: #e2e9e9;
+      /* Old browsers */
+      background: -moz-linear-gradient(top, #e2e9e9 0%, #e2e9e9 20%, #207cca 20%, #207cca 20%, #207cca 20%, #207cca 20%, #207cca 20%, #2989d8 20%, #2989d8 20%, #ffffff 20%, #ffffff 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, #e2e9e9 0%, #e2e9e9 20%, #207cca 20%, #207cca 20%, #207cca 20%, #207cca 20%, #207cca 20%, #2989d8 20%, #2989d8 20%, #ffffff 20%, #ffffff 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, #e2e9e9 0%, #e2e9e9 20%, #207cca 20%, #207cca 20%, #207cca 20%, #207cca 20%, #207cca 20%, #2989d8 20%, #2989d8 20%, #ffffff 20%, #ffffff 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e9e9', endColorstr='#ffffff', GradientType=0);
+      /* IE6-9 */
+      background-repeat: no-repeat;
+  }
+
+  .App {
+
+      background-color: #ffffff;
+      margin: 0.8rem;
+      border-left: 1px solid rgb(226, 226, 226);
+      border-right: 1px solid rgb(226, 226, 226);
+      border-bottom: 1px solid rgb(226, 226, 226);
+
+      -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.69);
+      -moz-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.69);
+      box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.69);
+      /*   height: 95vh; */
+
+      &-header {
+          background-color: #cbd5da;
+          height: 80px;
+
+          &-logo {
+              max-width: 80px;
+          }
+
+          .step {
+              /*       height: 15px;
+        width: 15px; */
+              padding: 12px 20px;
+              background-color: $five-color;
+              color: $white;
+              border: none;
+              border-radius: 50%;
+              display: inline-block;
+          }
+
+          .step-hr {
+              border: 2px solid $five-color;
+              border-radius: 5px;
+              width: 100%;
+          }
+
+          .step-container {
+              width: 100%;
+              max-width: 35%;
+          }
+      }
+
+      .container-form {
+          margin-bottom: 40px;
+      }
+
+  }
+
+  .section-footer {
+      border-top: 2px solid $border-color;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      /*     width: 100%; */
+      display: flex;
+      justify-content: space-between;
+
+      .right {
+          justify-content: flex-end
+      }
+
+  }
+
+  .section-info {
+      display: block;
+  }
+
+  .center-items {
+
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .title-hr {
+      border-top: 2px solid #00c3dd;
+      border-radius: 5px;
+      width: 15%;
+      margin: 0;
+  }
+
+  .col-description {
+      margin-right: 5%;
+  }
+
+  .row {
+      margin: 0 !important;
+  }
+
+  @media (max-width: 575.98px) {
+    .step-container {
+        max-width: 75% !important;
+    }
+
+    .App-main-description {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
