@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {useForm} from "react-hook-form";
 import Swal from 'sweetalert2';
 import Footer from '../../components/Footer';
-import {NextStep2} from '../../components/Footer/NextStep2';
+import {NextStep2} from '../../helper/handleNextStep2';
 import history from "./../../utils/history";
 /* import Swal from 'sweetalert2'; */
 

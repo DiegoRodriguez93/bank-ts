@@ -1,0 +1,8 @@
+{
+  "translations": {
+    "To get started, edit <1>src/App.js</1> and save to reload.":
+      "To get started, edit <1>src/App.js</1> and save to reload.",
+      "Welcome to OpenClose": "Cuenta Corriente OpenClose",
+    "welcome": "Hello <br/> <strong>World</strong>"
+  }
+}

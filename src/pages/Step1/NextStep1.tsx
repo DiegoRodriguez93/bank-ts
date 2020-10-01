@@ -16,6 +16,9 @@ const NextStep1 = () => new Promise < boolean > ((resolve, reject) => {
                 'hics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem' +
                 ' ipsum dolor sit amet..", comes from a line in section 1.10.32</div>',
         inputPlaceholder: 'I agree to terms and conditions',
+        allowEscapeKey: false,
+        allowOutsideClick: false,
+        showCancelButton: true,
         preConfirm: () => {
             let checkbox : boolean = (document.getElementById('swal2-checkbox')as HTMLInputElement).checked;
             if (!checkbox) {

@@ -4,6 +4,8 @@ import {Switch, Route} from 'react-router-dom';
 import './styles/main.scss';
 import 'bootstrap/dist/css/bootstrap-grid.min.css'
 
+import './locale/'
+
 import Header from './components/Header';
 import Title from './components/Title';
 import Step1 from './pages/Step1/';

@@ -27,13 +27,13 @@ export default function Step1() {
                 <div className="col-lg-6 sm-12">
                     <img src={description1} alt="description1 Step1"/>
                     <div className="col-description">
-                        {t("Guarda aquí todas tus contraseñas, datos o cualquier información, olvida las notas de papel y las aplicaciones no protegidas")}
+                        {t("Save here all your passwords, data or any information, forget paper notes and unprotected applications")}
                     </div>
                 </div>
                 <div className="col-lg-6 sm-12">
                     <img src={description2} alt="description2 Step1"/>
                     <div className="col-description">
-                        {t("Crea tu clave maestra, solo tú podrás acceder a tus secretos con ella.")}
+                        {t("Create your master key, only you can access your secrets with it.")}
                     </div>
                 </div>
 
@@ -44,13 +44,13 @@ export default function Step1() {
         <div className="container section-info">
 
             <div className="info" style={{ width: "100" }}>
-                <div className="description-title"><h3>¿Cómo funciona?</h3></div>
-                <div className="col-description"><p>En primer lugar, debes crear una contraseña diferente para sus pertenencias electrónicas. No podrás recuperar tu contraseña, así que recuérdala bien.</p></div>
+                <div className="description-title"><h3> {t("How does it work?")}</h3></div>
+                <div className="col-description"><p> {t("First, you need to create a different password for your electronic belongings. You will not be able to recover your password, so remember it well.")} </p></div>
             </div>
 
             <div className="info">
-                <div className="description-title"><h3>¿Qué datos puedes guardar?</h3></div>
-                <div className="col-description"><p>Por ejemplo, el número de tu tarjeta, el PIN y el PUK de tu teléfono móvil, el número de serie de alguno de tus dispositivos o cualquier información que necesites tener en un lugar seguro.</p></div>
+                <div className="description-title"><h3> {t("What data can you save?")} </h3></div>
+                <div className="col-description"><p> {t("For example, the number of your card, the PIN and PUK of your mobile phone, the serial number of one of your devices or any information that you need to have in a safe place.")} </p></div>
             </div>
 
         </div>
